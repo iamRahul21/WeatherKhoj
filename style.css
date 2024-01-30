@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    /* Prevent scrolling */
+    color: white;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9); */
+}
+
+.background-container {
+    background-size: cover;
+    background-position: center;
+    background-color: yellowgreen;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: black;
+    /* z-index: -1; */
+    ;
+}
+
+.title {
+    font-family: 'Lobster', cursive;
+    font-weight: 400px;
+    margin-top: 0vh;
+    font-size: 5.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sec1 {
+    margin-top: 40vh;
+}
+
+.quote {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    width: 90%;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 1.3em 2em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #aeacac;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    /* box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); */
+    /* transition: all 0.3s ease 0s; */
+    outline: none;
+    position: relative;
+    /* Change to relative position */
+    cursor: text;
+    width: 355px;
+    bottom: 570px;
+}
+
+.search input {
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    padding: 0em;
+    border-radius: 45px;
+}
+
+.search img {
+    background-color: #fff;
+    width: 20px;
+    margin-right: 8px;
+}
+
+button:hover {
+    background-color: black;
+    box-shadow: 0px 10px 15px #A9A9A9;
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+button:active {
+    transform: translateY(-1px);
+}
+
+.center {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    color: black;
+}
+
+.weather_report {
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.response {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    width: 475px;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color: #fff;
+    font-size: 25px;
+    color: black;
+    padding: 40px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 520px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    width: calc(16.666% - 10px);
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color: #fff;
+    font-size: 25px;
+    color: black;
+    padding: 70px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 480px;
+}
