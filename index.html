@@ -67,7 +67,7 @@
 
             const response = await fetch(`http://localhost:3000/getWeather?city=${cityName}`);
             const weatherData = await response.json();
-            console.log('Weather Data:', weatherData); // Log the data to the console
+            console.log('Weather Data:', weatherData); // Log the data to the console~
 
             if (weatherData.error) {
                 alert('Error fetching weather data. Please try again.');
